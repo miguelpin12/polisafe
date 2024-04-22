@@ -1,0 +1,34 @@
+
+body{
+font-family: "Roboto", sans-serif;
+color: rgb(107, 243, 222);
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin:0%;
+}
+.Menu{
+   
+    list-style: none;
+    padding: 0;
+    background:color hsl(0, 100%, 50%);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.Menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+}
+.Menu li{
+    display:inline-block;
+    text-align: center;
+}
+.Menu li a:hover{
+    background-color: chocolate;
+}
+footer{
+    background: aliceblue;
+}
